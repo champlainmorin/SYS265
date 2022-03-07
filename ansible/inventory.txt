@@ -1,0 +1,11 @@
+[docker]
+ansible01-zach
+[webmin]
+ansible02-zach
+[windows]
+10.0.5.10
+10.0.5.150
+mgmt01-zach
+wks01-zach
+[windows:vars]
+ansible_shell_type=powershell
